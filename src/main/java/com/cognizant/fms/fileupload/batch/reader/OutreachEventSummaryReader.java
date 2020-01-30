@@ -1,4 +1,4 @@
-package com.cognizant.fms.fileupload.batch;
+package com.cognizant.fms.fileupload.batch.reader;
 
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.NonTransientResourceException;
