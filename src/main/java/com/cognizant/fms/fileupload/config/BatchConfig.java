@@ -27,10 +27,10 @@ import com.cognizant.fms.fileupload.batch.processor.OutreachEventInformationProc
 import com.cognizant.fms.fileupload.batch.reader.OutreachEventInformationReader;
 import com.cognizant.fms.fileupload.entity.Student;
 import com.cognizant.fms.fileupload.mapper.StudentRowMapper;
+import com.cognizant.fms.fileupload.model.OutreachEventInformation;
 
 @Configuration
 @EnableBatchProcessing
-@Transactional
 public class BatchConfig {
 	
 	@Autowired
@@ -59,7 +59,10 @@ public class BatchConfig {
 	  @Bean
 	    public Step readOutreachEventInformation() {
 	        return stepBuilderFactory.get("read-outreach-event-information")
-	        		.chunk(100).reader(oeiReader)
+	        		.<OutreachEventInformation, OutreachEventInformation>chunk(100)
+	        		.reader(oeiReader)
+	        		.processor(oeiProcessor)
+	        		.writer()
 	        		//.processor((e)->Process(oeiProcessor)
 	        		.build();
 	    }
