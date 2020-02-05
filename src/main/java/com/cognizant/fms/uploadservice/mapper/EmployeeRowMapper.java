@@ -1,9 +1,9 @@
-package com.cognizant.fms.upload.mapper;
+package com.cognizant.fms.uploadservice.mapper;
 
 import org.springframework.batch.item.excel.RowMapper;
 import org.springframework.batch.item.excel.support.rowset.RowSet;
 
-import com.cognizant.fms.upload.entity.Employee;
+import com.cognizant.fms.uploadservice.entity.Employee;
 
 public class EmployeeRowMapper implements RowMapper<Employee> {
 

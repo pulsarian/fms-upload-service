@@ -1,4 +1,4 @@
-package com.cognizant.fms.upload.batch.reader;
+package com.cognizant.fms.uploadservice.batch.reader;
 
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.NonTransientResourceException;
@@ -10,8 +10,8 @@ import org.springframework.batch.item.excel.poi.PoiItemReader;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.stereotype.Component;
 
-import com.cognizant.fms.upload.entity.Student;
-import com.cognizant.fms.upload.model.OutreachEventInformation;
+import com.cognizant.fms.uploadservice.entity.Student;
+import com.cognizant.fms.uploadservice.model.OutreachEventInformation;
 
 @Component
 public class OutreachEventInformationReader implements ItemReader<OutreachEventInformation> {

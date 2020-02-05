@@ -1,9 +1,9 @@
-package com.cognizant.fms.upload.config;
+package com.cognizant.fms.uploadservice.config;
 
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Component;
 
-import com.cognizant.fms.upload.entity.Student;
+import com.cognizant.fms.uploadservice.entity.Student;
 
 
 

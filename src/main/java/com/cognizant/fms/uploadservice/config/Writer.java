@@ -1,4 +1,4 @@
-package com.cognizant.fms.upload.config;
+package com.cognizant.fms.uploadservice.config;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.cognizant.fms.upload.entity.Student;
-import com.cognizant.fms.upload.repository.StudentRepository;
+import com.cognizant.fms.uploadservice.entity.Student;
+import com.cognizant.fms.uploadservice.repository.StudentRepository;
 
 
 @Component

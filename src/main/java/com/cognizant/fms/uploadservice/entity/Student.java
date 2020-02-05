@@ -1,4 +1,4 @@
-package com.cognizant.fms.upload.entity;
+package com.cognizant.fms.uploadservice.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

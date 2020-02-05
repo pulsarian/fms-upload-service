@@ -1,4 +1,4 @@
-package com.cognizant.fms.upload;
+package com.cognizant.fms.uploadservice;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParameters;

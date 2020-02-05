@@ -1,4 +1,4 @@
-package com.cognizant.fms.upload.config;
+package com.cognizant.fms.uploadservice.config;
 
 
 
@@ -23,11 +23,11 @@ import org.springframework.core.io.FileSystemResource;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.cognizant.fms.upload.batch.processor.OutreachEventInformationProcessor;
-import com.cognizant.fms.upload.batch.reader.OutreachEventInformationReader;
-import com.cognizant.fms.upload.entity.Student;
-import com.cognizant.fms.upload.mapper.StudentRowMapper;
-import com.cognizant.fms.upload.model.OutreachEventInformation;
+import com.cognizant.fms.uploadservice.batch.processor.OutreachEventInformationProcessor;
+import com.cognizant.fms.uploadservice.batch.reader.OutreachEventInformationReader;
+import com.cognizant.fms.uploadservice.entity.Student;
+import com.cognizant.fms.uploadservice.mapper.StudentRowMapper;
+import com.cognizant.fms.uploadservice.model.OutreachEventInformation;
 
 @Configuration
 @EnableBatchProcessing
