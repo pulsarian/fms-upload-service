@@ -1,4 +1,4 @@
-package com.cognizant.fms.fileupload.model;
+package com.cognizant.fms.upload.model;
 
 import java.sql.Date;
 

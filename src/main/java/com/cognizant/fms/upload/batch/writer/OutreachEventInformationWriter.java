@@ -1,13 +1,13 @@
-package com.cognizant.fms.fileupload.batch.writer;
+package com.cognizant.fms.upload.batch.writer;
 
 import java.util.List;
 
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.stereotype.Component;
 
-import com.cognizant.fms.fileupload.entity.Employee;
-import com.cognizant.fms.fileupload.entity.Event;
-import com.cognizant.fms.fileupload.model.OutreachEventInformation;
+import com.cognizant.fms.upload.entity.Employee;
+import com.cognizant.fms.upload.entity.Event;
+import com.cognizant.fms.upload.model.OutreachEventInformation;
 
 @Component
 public class OutreachEventInformationWriter implements ItemWriter<OutreachEventInformation> {

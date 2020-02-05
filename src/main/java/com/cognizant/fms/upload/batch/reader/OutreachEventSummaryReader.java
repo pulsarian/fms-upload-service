@@ -1,4 +1,4 @@
-package com.cognizant.fms.fileupload.batch.reader;
+package com.cognizant.fms.upload.batch.reader;
 
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.NonTransientResourceException;
@@ -6,7 +6,7 @@ import org.springframework.batch.item.ParseException;
 import org.springframework.batch.item.UnexpectedInputException;
 import org.springframework.stereotype.Component;
 
-import com.cognizant.fms.fileupload.model.OutreachEventInformation;
+import com.cognizant.fms.upload.model.OutreachEventInformation;
 
 @Component
 public class OutreachEventSummaryReader implements ItemReader<OutreachEventInformation> {

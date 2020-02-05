@@ -1,8 +1,8 @@
-package com.cognizant.fms.fileupload.repository;
+package com.cognizant.fms.upload.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.cognizant.fms.fileupload.entity.Student;
+import com.cognizant.fms.upload.entity.Student;
 
 public interface StudentRepository extends JpaRepository<Student, Long> {
 
